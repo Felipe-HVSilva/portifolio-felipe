@@ -1,0 +1,44 @@
+@media (max-width: 1080px) {
+  .content-projects{
+    flex-direction: column;
+  }
+}
+
+@media (max-width:780px){
+  header {
+    justify-content:center;
+    flex-direction: row;
+    padding-top: 0rem;
+    h1 {
+      display: none;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        margin-left:0;
+        margin-top: 1rem;
+        padding:1rem;
+        font-weight: bold;
+      }
+    }
+  }
+  .description {
+    p {
+      max-width: 100%;
+    }
+  }
+  .sub-header {
+    flex-direction:column;
+
+    .image-person{
+      margin-top: 4rem;
+    }
+  }
+
+  .skills-container {
+    flex-direction: column;
+  }
+}
