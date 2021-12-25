@@ -1,0 +1,77 @@
+.about-my {
+  max-width:1140px;
+  margin:10.5rem auto;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+
+  .description {
+    a{
+      text-decoration:none
+    }
+    #github {
+      font-size:1.6rem;
+      color:white;
+    }
+  }
+
+  .title {
+    font-size:2rem;
+    color: white;
+    font-weight: bold;
+    line-height:41,66px;
+    margin-bottom: 1.875rem;
+  }
+
+  p {
+    display:inline-block;
+    text-align: center;
+    width:745px;
+    color:#828282;
+    font-size: 1.125rem;
+    margin-bottom: 5.32rem;
+  }
+
+  .card-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2rem;
+  }
+
+  .content {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+
+    & + .content {
+      margin-top:2.55rem
+    }
+    h1 {
+      margin-top: 1.2rem;
+      color: #F9F9F9;
+      font-weight: bold;
+      font-size: 1.13rem;
+    }
+
+    span {
+      font-weight: bold;
+      font-size: 1rem;
+      margin-top: 0.32rem;
+      color:#828282;
+    }
+
+  }
+  .container-icon {
+    background: 
+    #212121;
+    width:62px;
+    height:62px;
+    border-radius: 999999px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+}

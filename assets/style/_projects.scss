@@ -1,0 +1,54 @@
+.projects {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 8rem;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+  }
+
+  .content-projects{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 2rem;
+
+    a {
+      text-decoration:none;
+     }
+  }
+
+  .container-projects {
+    height: 240px;
+    width:350px;
+    background: #333333;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    border: 1rem solid #333333;
+
+     img {
+      width:300px;
+      height:130px;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 1.2rem;
+      color: white;
+      margin-top: 1.5rem;
+    }
+
+    small {
+      font-weight: 400;
+      font-size: 0.85rem;
+      color:#828282;
+    }
+  }
+}
